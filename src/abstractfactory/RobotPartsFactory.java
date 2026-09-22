@@ -1,4 +1,8 @@
 package abstractfactory;
 
-public class RobotPartsFactory {
+public interface RobotPartsFactory {
+
+    Sensor createSensor();
+
+    Battery createBattery();
 }
