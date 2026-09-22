@@ -1,4 +1,6 @@
 package abstractfactory;
 
-public class Sensor {
+public interface Sensor {
+
+    void scan();
 }

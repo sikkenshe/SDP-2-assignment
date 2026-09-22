@@ -1,4 +1,6 @@
 package abstractfactory;
 
-public class Battery {
+public interface Battery {
+
+    void charge();
 }
